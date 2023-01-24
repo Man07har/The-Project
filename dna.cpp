@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     char t[] = "AAGGAG";
     char p[] = "AG";
-    int n = sizeof(t) / sizeof(t[0]) - 1; // length of text
-    int m = sizeof(p) / sizeof(p[0]) - 1; // length of pattern
-    int window_index[n]; // array to store the starting indexes of the windows where pattern is found
+    int n = sizeof(t) / sizeof(t[0]) - 1;
+    int m = sizeof(p) / sizeof(p[0]) - 1;
+    int window_index[n];
     int count = 0;
     int num_window = 0;
 
