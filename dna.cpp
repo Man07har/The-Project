@@ -5,9 +5,9 @@ int main() {
     string t;
     string p;
    cout<<"Enter the string: "<<endl;
-   cin>>t;
+   getline(cin,t);
    cout<<"Enter the pattern: "<<endl;
-   cin>>p;
+   getline(cin,p);
     int n = sizeof(t) / sizeof(t[0]) - 1;
     int m = sizeof(p) / sizeof(p[0]) - 1;
     int window_index[n];
