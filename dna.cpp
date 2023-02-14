@@ -49,5 +49,9 @@ int main() {
     }
     count=count+1;
     }
-    return 0;
+    cout<<"The number of final match is: "<<num_match<<endl;
+   for (int i = 0; i < num_window; i++) {
+        cout << match_index[i] << " ";
+    }
+        return 0;
 }
